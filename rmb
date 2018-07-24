@@ -13,8 +13,9 @@ usage() {
     echo "usage: rmb <subcommand> [options]"
     echo
     echo "Available subcommands are:"
-    echo "  clone         Just the same as git clone."
-    echo "  branch/br     Just the same as git branch."
+    echo "  clone         just the same as git clone."
+    echo "  branch/br     just the same as git branch."
+    echo "  test          run unit test."
     echo "  push          sync local branch to remote branch, for testing."
     echo "  release/rl    merge local branch to remote master, for production."
 }
