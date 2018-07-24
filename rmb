@@ -13,11 +13,11 @@ usage() {
     echo "usage: rmb <subcommand> [options]"
     echo
     echo "Available subcommands are:"
-    echo "  init       Initialize a new git repo with support for the rmb model."
-    echo "  clone      Just the same as git clone."
-    echo "  branch     Just the same as git branch."
-    echo "  push       sync local branch to remote."
-    echo "  release    merge local branch to remote master."
+    echo "  init          Initialize a new git repo with support for the rmb model."
+    echo "  clone         Just the same as git clone."
+    echo "  branch/br     Just the same as git branch."
+    echo "  push          sync local branch to remote."
+    echo "  release/rl    merge local branch to remote master."
 }
 
 main() {
